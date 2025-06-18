@@ -17,13 +17,13 @@ A Streamlit-based AI image processing application that combines TensorFlow and P
 pip install -r requirements.txt
 ```
 3. Ensure both model files are present in the root directory:
-- `color_image_checkpoint.keras` (TensorFlow colorization model)
-- `RRDB_ESRGAN_x4.pth` (PyTorch super-resolution model)
+- [color_image_checkpoint.keras](https://drive.google.com/file/d/1KTvcmVG7BQYxkFBH4Z_t_bTh25oSCrbe/view?usp=sharing) (TensorFlow colorization model)
+- [RRDB_ESRGAN_x4.pth](https://drive.google.com/file/d/16U8TKd31XVVDofDA67le61HgreAgFDnX/view?usp=sharing) (PyTorch super-resolution model)
 
 ## Usage
 1. Run the Streamlit app:
 ```bash
-streamlit run streamlit6.py
+streamlit run streamlit.py
 ```
 2. Upload an image (JPG/PNG format)
 3. Click "Process Image" to generate:
